@@ -1,0 +1,29 @@
+.header {
+  width: 100%;
+  padding: 1%;
+  text-align: end;
+  background-color: rgb(233, 64, 64);
+  
+
+  .logo-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 5.6%;
+    padding: 0.5%;
+    background: rgb(68, 0, 255);
+
+  }
+
+  .options {    
+    display: inline-block;
+    margin-right: 10%;
+    
+      .option {
+        padding-left: 30%;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+    }
+  }
+}
